@@ -2,6 +2,8 @@
 A very simple buffer overflow using CVE-2013-4730 against PCman's FTP server v.2.0.7
 ## How it works?
 That easy BoF overwrite the buffer and the EIP and execute the shellcode that will connect back (reverse shell)
+## Vuln machines:
+WindowsXP SP3 running PCman's FTP Server at version 2.0.7
 ## launch
 ````~$ python3 PCman.py <host> <port>````
 ## Repleace the shellcode with your own!!
